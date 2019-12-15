@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta chareset="utf-8">
+<title>关于我</title>
+<style>
+	form{
+		width: 248px;
+		height: 220px;
+		background-color: #F5EAE8;
+		padding: 30px 40px;
+		border: 1px solid #F5EAE8;
+	}
+	input{
+		display: block;
+	}
+	[type="text"],[type="password"]{
+		width: 250px;
+		height: 38px;
+		border: 1pz solid #CCC;
+		margin-bottom: 30px;
+		font-size: 16px;
+		text-indent: 50px;
+	}
+	[type="text"]{background: url(images/zhanghao.jpg) no-repeat 0 -2px;}
+	[type="password"]{background: url(images/mima.jpg) no-repeat 0 -2px;}
+	[type="checkbox"]{
+		display: inline;
+		vertical-align: middle;
+	}
+	label{font-size: 14px;}
+	.reg{
+		text-align: center;
+		font-size: 12px;
+		margin-top: -18px;
+	}
+	.reg a{
+		color: #F00;
+		text-decoration: underline;
+	}
+	[type="submit"]{
+		width: 255px;
+		height: 44px;
+		margin: 25px auto;
+		background-image: url("images/jinru.jpg");
+		border: none;
+	}
+	
+	body{
+		background: url("images/7.jpg") no-repeat top center;
+		padding: 50px 0 0 860px;
+	}
+	.related{
+		width: 330px;
+		height: 145px;
+		background-color: #F5EAE8;
+		border-top: 1px solid #DDD;
+		padding-top: 20px;
+		text-align: center;
+		font-size: 14px;
+	}
+	</style>
+</head>
+
+<body>
+<form action="#" method="post" name="form">
+	<input type="text" name="user" placeholder="账号">
+	<input type="password" name="password" placeholder="密码">
+	<input type="checkbox" name="account" value="1" id="account">
+	<input type="checkbox" name="account" value="1" id="account">
+	<div class="reg">
+		<a href="#">忘记密码</a>
+		
+	</div>
+	<label for="account">自动登录</label>
+	<label for="account">记住密码</label>
+	
+	<input type="submit" name="submit" value>
+</form>
+<div class="related">
+    <h2>特别提示：</h2>
+	<h2>洪某与二哈无法登录</h2>
+	<a href="images/weixin.png" alt=""></a>
+	<a href="images/qqlogin.png" alt=""></a>
+	<a href="images/taobao.png" alt=""></a>
+</div>
+</body>
+</html>
